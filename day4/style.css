@@ -1,0 +1,58 @@
+.parent{
+    background-color:white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.childone{
+
+    height: 490px;
+    width: 800px;
+    background-color:black;
+}
+.childone:hover{
+background-color: red;
+transform: scale(1.1);
+transition: 0.56s;
+}
+.childtwo{
+    height: 490px;
+    width: 900px;
+    background-color: yellow;
+}
+.childtwo:hover{
+  background: pink;
+  transform: scale(1.1);
+  transition: 0.56s;
+}
+.navbar{
+    display: flex;
+    height: 1vh;
+    align-items: center;
+    padding: 0 100px;
+
+}
+.logo{
+    flex: 1;
+}
+.menus{
+    flex: 3;
+}
+.ul{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.li{
+    text-decoration: none;
+}
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .rocket{
+    height: 100vh;
+  }
