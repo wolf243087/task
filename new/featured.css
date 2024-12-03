@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 80px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+   
+}
+.logo{
+    height: 50px;
+    padding: 0px;
+}
+.part{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px; 
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 40px; 
+}
+
+#body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 650px;
+}
+.left{
+        /* background-color: rgb(17, 17, 17); */
+    color: white;
+    padding-right: 190px;
+    padding-left: 50px;
+}
+
+button{
+    text-align: center;
+    height: 50px;
+    width: 260px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+
+button:hover{
+transform: scale(1.1);
+    transition: 0.56s;
+}
+.right{
+    width: 500px;
+}
+
+#strip{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    font-size: larger;
+}
+
+#dav{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 150px;
+   
+}
+#dav:hover{
+transform: scale(1.1);
+    transition: 0.56s;
+}
+
+#ujva{
+    width: 600px;
+    height: 400px;
+    display:table-column;
+    justify-content:center;
+    row-gap: 20px;
+    align-items:end;
+    
+}
+
+#ujva:hover{
+transform: scale(1.1);
+    transition: 0.56s;
+}
+
+#photo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    margin-left: 150px;
+    margin-right: 180px;
+}
+
+#line:hover{
+transform: scale(1.1);
+    transition: 0.56s;
+}
+#rock{
+    background-image: url("https://www.nasa.gov/wp-content/uploads/2024/11/nasa-holiday-fireplace-key-art-r1-horizontal-program-tile-16-9-without-title.jpg?resize=2000,1125");
+    background-repeat: no-repeat;
+
+    font-size: 30px;
+    height: 100vh;
+    padding: 600px 950px 70px 300px ;
+    color: white;
+}
+#search:hover{
+transform: rotateY(360deg);
+transition: 4s;
+
+}
+
+
